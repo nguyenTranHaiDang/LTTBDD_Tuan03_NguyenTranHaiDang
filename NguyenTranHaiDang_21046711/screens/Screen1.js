@@ -25,34 +25,6 @@ export default function App({navigation}) {
                 color:'gray'
             }}>Simplify tasks, boost Productivity</Text>
         </View>      
-        
-        <View>
-            <TouchableOpacity
-                style ={{
-                        marginTop: 15,
-                        backgroundColor: 'blue',
-                        borderRadius: 10,
-                        width: '100%',
-                        height: 50,                        
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        paddingHorizontal:140
-                }}
-                onPress={() => { navigation.navigate("Screen2") }}>
-                <Text style = {{fontSize: 20, color:'white'}}>Sign Up</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-                style ={{
-                        height: 50,
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        paddingHorizontal:140
-                }}
-                onPress={() => { navigation.navigate("Screen3") }}>
-                <Text style = {{fontSize: 20, color:'black'}}>Login</Text>
-            </TouchableOpacity>
-        </View>
     </View>
     </ScrollView>
   )
